@@ -8,5 +8,6 @@ while True:
     products.append(p) #小清單裝入大清單 （二維清單）
 print(products)
 
-products[0][0]
+for p in products:
+	print(p[0], '的價格是', p[1])
 
